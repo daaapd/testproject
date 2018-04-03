@@ -5,3 +5,4 @@ create user TEST_APPS
 -- Grant/Revoke role privileges 
 grant connect to TEST_APPS;
 grant resource to TEST_APPS;
+GRANT UNLIMITED TABLESPACE TO TEST_APPS;
